@@ -29,7 +29,7 @@ window.onload = function () {
         onhover: { enable: true, mode: "repulse" },
         onclick: { enable: true, mode: "push" },
       },
-      modes: { repulse: { distance: 100 }, push: { particles_nb: 4 } },
+      modes: { repulse: { distance: 1 }, push: { particles_nb: 4 } },
     },
     retina_detect: true,
   });
