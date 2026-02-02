@@ -13,10 +13,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css"
+    />
+
     <link rel="stylesheet" href="/Portfolio/css/main.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
     <script src="/Portfolio/scripts/main.js"></script>
   </head>
   <body>
@@ -37,22 +43,6 @@
         <div class="col-lg-7">
           <div class="intro-block">
             <h2>Personal Summary</h2>
-            <p class="lead">
-              Experienced Full Stack Web Developer with over 3 years of hands-on
-              expertise in Umbraco CMS, .NET Core, C#, and front-end
-              technologies (HTML5, CSS3, JavaScript ES6, Ajax, Bootstrap).
-              Passionate about building efficient, user-centric digital
-              solutions. Skilled in proactive communication with designers and
-              clients to negotiate scopes, timelines, and modifications.
-              Possesses keen observational skills to identify unique insights.
-              International experience in Japan enhances cultural adaptability
-              and customer service capabilities. Committed to continuous
-              learning, integrating AI tools to streamline workflows and
-              accelerate project delivery.
-            </p>
-          </div>
-          <div class="intro-block">
-            <h2>Projects</h2>
             <p class="lead">
               Experienced Full Stack Web Developer with over 3 years of hands-on
               expertise in Umbraco CMS, .NET Core, C#, and front-end
@@ -207,9 +197,89 @@
           </div>
         </div>
       </div>
+      <div class="intro-block mt-5">
+        <h2 class="text-center mb-5">Project Showcase</h2>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <div class="project-item text-center">
+              <h5 class="mb-3">iAuto Rental Car</h5>
+              <a href="/Portfolio/images/ia-1.png" data-lightbox="iAuto">
+                <img
+                  src="/Portfolio/images/ia-1.png"
+                  class="img-fluid rounded shadow project-thumb"
+                  alt="iAuto Home Page"
+                />
+              </a>
+              <a href="/Portfolio/images/ia-2.png" data-lightbox="iAuto" loading="lazy"></a>
+              <a href="/Portfolio/images/ia-3.png" data-lightbox="iAuto" loading="lazy"></a>
+              <a href="/Portfolio/images/ia-4.png" data-lightbox="iAuto" loading="lazy"></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="project-item text-center">
+              <h5 class="mb-3">Asia One</h5>
+              <a
+                href="/Portfolio/images/school-admission-1-large.jpg"
+                data-lightbox="project-school"
+                data-title="Main Application Form & Wizard"
+              >
+                <img
+                  src="/Portfolio/images/school-admission-1.jpg"
+                  class="img-fluid rounded shadow project-thumb"
+                  alt="School Admission Project"
+                />
+              </a>
+
+              <a
+                href="/Portfolio/images/school-admission-2-large.jpg"
+                data-lightbox="project-school"
+                data-title="User Registration & Verification Flow"
+                style="display: none"
+              ></a>
+              <a
+                href="/Portfolio/images/school-admission-3-large.jpg"
+                data-lightbox="project-school"
+                data-title="Salesforce CRM Integration"
+                style="display: none"
+              ></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="project-item text-center">
+              <h5 class="mb-3">Chinney Group</h5>
+              <a
+                href="/Portfolio/images/ai-bill-1-large.jpg"
+                data-lightbox="project-ai-bill"
+                data-title="OCR Bill Extraction & Storage"
+              >
+                <img
+                  src="/Portfolio/images/ai-bill-1.jpg"
+                  class="img-fluid rounded shadow project-thumb"
+                  alt="AI Bill Scanner"
+                />
+              </a>
+
+              <a
+                href="/Portfolio/images/ai-bill-2-large.jpg"
+                data-lightbox="project-ai-bill"
+                data-title="Monthly Income/Expense Calculator"
+                style="display: none"
+              ></a>
+              <a
+                href="/Portfolio/images/ai-bill-3-large.jpg"
+                data-lightbox="project-ai-bill"
+                data-title="Automated Financial Report Generation"
+                style="display: none"
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
   </body>
 </html>
