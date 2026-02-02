@@ -25,11 +25,24 @@ window.onload = function () {
       },
     },
     interactivity: {
+      detect_on: "canvas",
       events: {
-        onhover: { enable: true, mode: "repulse" },
+        onhover: {
+          enable: true,
+          mode: "attract"
+        },
         onclick: { enable: true, mode: "push" },
+        resize: true
       },
-      modes: { repulse: { distance: 1 }, push: { particles_nb: 4 } },
+      modes: {
+        attract: {
+          distance: 200,
+          duration: 0.4,
+          easing: "ease-in-out",
+          factor: 1.5
+        },
+        push: { particles_nb: 4 }
+      }
     },
     retina_detect: true,
   });
