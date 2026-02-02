@@ -80,3 +80,17 @@ header .content {
   transform: scale(1.08);
   box-shadow: 0 5px 15px rgba(184, 134, 11, 0.5);
 }
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.tag-list .tag-item {
+  background: linear-gradient(135deg, #b8860b, #ffd700);
+  color: #000;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  transition: all 0.3s;
+}

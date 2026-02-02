@@ -76,3 +76,18 @@ header {
     }
   }
 }
+
+
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  .tag-item {
+    background: linear-gradient(135deg, #b8860b, #ffd700);
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    transition: all 0.3s;
+  }
+}
